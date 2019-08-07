@@ -1,0 +1,45 @@
+body {
+	width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.left{
+	text-align: center;
+	color: white;
+	float: left;
+ 	width: 20%;
+ 	height: 800px;
+ 	background: rgb(84,143,246);
+}
+* {
+    box-sizing: border-box;
+}
+
+.right{
+	float: right;
+  	width: 80%;
+  	background: white;
+  	height: 800px;
+  	
+}
+ul{
+    list-style-type:none;
+}
+
+li{
+	margin-left: -2em;
+	font-weight: bold;
+}
+li+p{
+	margin-left: -2em;
+	margin-top: -1px;
+}
+
+span{
+    word-break:normal; 
+    width:auto; 
+    display:block; 
+    white-space:pre-wrap;
+    word-wrap : break-word ;
+    overflow: hidden ;
+}  
