@@ -1,0 +1,173 @@
+html {
+   font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav{
+    height: 55px;
+    background: rgb(38,38,38);
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    color: white;
+    
+}
+
+nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+}
+
+nav ul{
+    padding-left: 10%;
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+}
+
+nav li {
+    text-align: center;
+    list-style:none;
+    margin-left: 0.5em;
+}
+
+nav span{
+    flex:2;
+    color: white;
+    font-size: 2em;
+    padding-left: 3em;
+}
+
+nav a, nav span {
+    color: white;
+
+}
+
+.info-box {
+    width: 800px;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+/* styling info-box tabs */
+
+.info-box ul {
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.info-box li {
+    float: left;
+    list-style-type: none;
+    width: 100px;
+
+}
+
+
+.header{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(234,234,234);
+    border-bottom-color: #fff;
+    width: 1000px;
+}
+
+.info-box li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    line-height: 3;
+    background-color: rgb(234,234,234);
+    color: black;
+    text-align: center;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border:2px rgb(234,234,234) solid;
+    border-bottom-color: #fff;
+}
+
+.info-box li a:focus, .info-box li a:hover,.info-box li a:visited {
+    background-color: rgb(234,234,234);
+}
+
+.info-box li a.active {
+    background-color: #fff;
+
+}
+
+.panels {
+    background-color: #fff;
+    color: #080808;
+    position: relative;
+    width: 800px;
+    top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+     /* flex-wrap: wrap;*/
+    margin: 0 auto;
+}
+
+.info-box .active-panel {
+    z-index: 1;
+}
+
+.photo{
+    height: 205px;
+    background: rgb(53,187,13);
+}
+
+footer{
+    height: 80px;
+    background: rgb(83,83,83);
+    text-align: center;
+    color: white;
+}
+
+.active-panel div{
+    padding: 10px;
+    margin: 10px;
+    flex: 200px;
+}
+
+.active-panel{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.active-panel div{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.active-panel div article{
+    margin: 5px;
+    border: 2px rgb(234,234,234) solid;
+    height: 120px;
+    flex: 200px;
+    line-height: 90px;
+}
+
+article p{
+display: inline-block;
+
+}
+
+footer p{
+    clear: both;
+    position: relative;
+    top:1em;
+}
+      
