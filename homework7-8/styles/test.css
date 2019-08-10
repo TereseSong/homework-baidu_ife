@@ -52,7 +52,7 @@ nav a, nav span {
 }
 
 .info-box {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
     margin: 0 auto;
 }
@@ -107,7 +107,7 @@ nav a, nav span {
     background-color: #fff;
     color: #080808;
     position: relative;
-    width: 800px;
+    width: 60%;
     top: 10px;
     text-align: center;
     display: flex;
@@ -132,12 +132,6 @@ footer{
     color: white;
 }
 
-.active-panel div{
-    padding: 10px;
-    margin: 10px;
-    flex: 200px;
-}
-
 .active-panel{
     display: flex;
     flex-direction: column;
@@ -154,6 +148,8 @@ footer{
 
 .active-panel div article{
     margin: 5px;
+    margin-left: 0;
+    margin-right: 10px;
     border: 2px rgb(234,234,234) solid;
     height: 120px;
     flex: 200px;
