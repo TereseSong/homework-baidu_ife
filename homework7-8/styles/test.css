@@ -51,13 +51,79 @@ nav a, nav span {
 
 }
 
+
+
+
+.banner{
+    height: 205px;
+    background: rgb(53,187,13);
+    position: relative;
+}
+.panels1{
+    height: 100%;
+    width: 100%;
+}
+
+.tabs{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+    z-index: 1;
+    height: 50px;
+    width: 130px;
+}
+.tabs div{
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: black 1px solid;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.tabs div p{
+    color: darkgreen;
+}
+
+div.tab p{
+     line-height: 10px;
+}
+
+.panels1 div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgb(53,187,13);
+}
+
+.panels1 p{
+    font-size: 2em;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.tabs .active-tab{
+    margin-top: 0;
+    height: 50px;
+    width: 30px;
+    background-color: white;
+}
+
+.active-panel1{
+    z-index: 1;
+}
+
+
 .info-box {
     width: 60%;
     margin: 0 auto;
-    margin: 0 auto;
 }
 
-/* styling info-box tabs */
 
 .info-box ul {
     padding-left: 0;
@@ -112,18 +178,17 @@ nav a, nav span {
     text-align: center;
     display: flex;
     flex-direction: column;
-     /* flex-wrap: wrap;*/
     margin: 0 auto;
 }
 
-.info-box .active-panel {
+.active-panel {
     z-index: 1;
 }
 
-.photo{
+/*.photo{
     height: 205px;
     background: rgb(53,187,13);
-}
+}*/
 
 footer{
     height: 80px;
@@ -156,10 +221,6 @@ footer{
     line-height: 90px;
 }
 
-article p{
-display: inline-block;
-
-}
 
 footer p{
     clear: both;
